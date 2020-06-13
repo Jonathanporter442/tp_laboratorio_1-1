@@ -8,7 +8,7 @@ int inicializarEmpleado(eEmpleado lista[], int tam)
         for(i=0; i<tam; i++)
         {
             lista[i].estado = LIBRE;
-            lista[i].id=0;
+            lista[i].id=0+2;
 
         }
         retorno=1;
